@@ -1,0 +1,19 @@
+# common
+*~
+.DS_Store
+.Trashes
+*.log
+*.map
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
+
+# project
+dist/
+
+# maven
+target
+
+# shell
+*.stackdump
