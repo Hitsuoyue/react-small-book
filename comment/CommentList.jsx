@@ -8,7 +8,7 @@ export default class CommentList extends Component {
                 {
                     list.map((item,index)=>
                     <div key={index} className='list-block'>
-                        <span className='list-user'>{item.userName}</span>:
+                        <span className='list-user'>{item.userName}:</span>
                         <span className='list-comment'>{item.comment}</span>
                     </div>
                     )

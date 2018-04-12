@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import PropTypesCom from './PropTypes';
 
-export default class PropTypes extends Component{
+export default class Wrapper extends Component{
     constructor(props){
         super(props);
         this.state={
@@ -8,10 +9,9 @@ export default class PropTypes extends Component{
     }
 
     render(){
+        let content = '11111';
         return(
-            <div style={{border: '1px solid #ccc'}}>
-                {this.props.children}
-            </div>
+            <PropTypesCom content={content}/>
         )
     }
 }

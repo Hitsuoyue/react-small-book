@@ -1,0 +1,64 @@
+.wrap {
+  width: 800px;
+  height: 900px;
+  border: 1px solid #ccc;
+  position: relative;
+  margin: 10px auto;
+  padding: 5px;
+  .input-wrap {
+    //margin: 5px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    .input-user {
+      height: 40px;
+      display: flex;
+      .input-user-left {
+        display: inline-block;
+        width: 100px;
+      }
+      .input-user-right {
+        display: inline-block;
+        flex: 1;
+      }
+    }
+    .input-comment {
+      height: 100px;
+      display: flex;
+      .input-comment-left {
+        display: inline-block;
+        width: 100px;
+      }
+      .input-comment-right {
+        display: inline-block;
+        flex: 1;
+      }
+    }
+  }
+  .list{
+    position: absolute;
+    border: 1px solid #ccc;
+    top: 195px;
+    bottom: 5px;
+    width: calc(100% - 12px);
+    .list-block {
+      margin: 5px;
+      padding: 10px;
+      border: 1px solid #aaa;
+      overflow: hidden;
+      .list-user {
+        display: block;
+        overflow: hidden;
+        max-height: 20px;
+        color: #6416E8;
+        font-weight: bold;
+        margin-right: 10px;
+      }
+      .list-comment {
+        display: block;
+        overflow: hidden;
+        max-height: 45px;
+      }
+    }
+  }
+
+}
